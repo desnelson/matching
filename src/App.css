@@ -1,38 +1,77 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;200;300;400;500&family=Arbutus+Slab&family=Mate+SC&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;200;300;400;500&family=Arbutus+Slab&family=Lora:wght@400;500;600;700&family=Mate+SC&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+body{
+  background-color: #36454F;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lora';
+  font-size: 20px;
+  color: white;
+  padding-left: 17px;
+}
+.title h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.title span{
+  font-size: 20px;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.option-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.book{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0E1339;
+  height: 55px;
+  padding: 25px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0E1339;
+  background-color: white;
+  margin: 18px;
+  cursor: pointer;
+  height: 55px;
+  width: 140px;
+  padding: 25px;
+  line-height: 1;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submit-button{
+  background: #C2572E;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  width: 100px;
   color: white;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 #DBCF8F;
+  cursor: pointer;
+  float: right;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-container{
+  padding: 40px;
 }
